@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">APSCompras</string>
+    <string name="data_compra">Data da compra</string>
+    <string name="h_local_compra">Local da compra</string>
+    <string name="btn_compra">Cadastrar Produtos</string>
+    <string name="h_produto">Nome do produto</string>
+    <string name="h_qtd">Quantidade</string>
+    <string name="h_valor">Valor Unitário</string>
+    <string name="btn_add_produto">Adicionar produto</string>
+    <string name="txt_local_compra">Local da compra: </string>
+    <string name="txt_data_compra">Data: </string>
+    <string name="txt_busca_data1">Data Inicial</string>
+    <string name="txt_busca_data2">Data Final</string>
+    <string name="btn_busca">Buscar</string>
+</resources>

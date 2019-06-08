@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroProdutosActivity">
+
+    <LinearLayout
+        android:id="@+id/vertical_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_local_compra"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/txt_compra_info_local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_data_compra"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/txt_compra_info_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lista_de_produtos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vertical_layout">
+    </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cadastro_produto_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom='true'
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:backgroundTintMode="src_in"
+        app:srcCompat="@android:drawable/ic_input_add" />
+</RelativeLayout>

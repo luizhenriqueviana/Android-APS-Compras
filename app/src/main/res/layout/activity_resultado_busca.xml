@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultadoBuscaActivity">
+
+    <TextView
+        android:id="@+id/resultado_total"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/resultado_lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/resultado_total"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>
